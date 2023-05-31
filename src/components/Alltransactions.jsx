@@ -70,7 +70,6 @@ const Team = () => {
         const currentDate = new Date();
         const timeDifference = currentDate.getTime() - rowDate.getTime();
         const hoursDifference = timeDifference / (1000 * 60 * 60);
-        console.log(hoursDifference);
         if (hoursDifference <= 12) {
           return (
             <IconButton
